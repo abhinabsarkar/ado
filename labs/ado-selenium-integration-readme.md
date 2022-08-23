@@ -3,6 +3,7 @@
 The lab is available at [ADO Lab - Selenium | Microsoft GitHub](https://github.com/microsoft/azuredevopslabs/tree/master/labs/vstsextend/selenium) as well as at [Automating Selenium Tests in Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/selenium/).
 
 ## Things to be considered for this lab (not covered in the Microsoft documentation)
+* Since the lab requires self hosted agent, had to create Azure DevOps `organization` on MSDN subscription. It was to bypass MFA & other requirements which were in the work subscription.
 * The lab uses the VM name while creating other resources including storage account. To avoid naming constraints, use VM Name as `vmabhi`.
 * The lab runs `SQL Server 2017 Express` on the VM which doesn't allow remote connections. Hence, you cannot use hosted agents to run this lab.
 ![alt txt](/images/sql-express-on-vm.jpg)
