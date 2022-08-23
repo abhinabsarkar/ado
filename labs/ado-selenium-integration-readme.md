@@ -13,3 +13,4 @@ The lab is available at [ADO Lab - Selenium | Microsoft GitHub](https://github.c
     * [.NET Framework 4.5.2](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net452-developer-pack-offline-installer)
     * [.NET Framework 4.5.1](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net451-developer-pack-offline-installer)
 * Selenium test result shows 5 failed after the run whereas the lab has all of them run successfully. This is still alright as it shows Selenium execution partially successful.
+![alt txt](/images/selenium-test-result.jpg)
